@@ -93,7 +93,13 @@ how to implement
 
 * 앞서 만들어진 firebase의 url 주소를 복사해서 dialowflow의 url 주소 창에 넣어주고 save 해준다.
 
-   '''위치를 찾기위해서는 google map을 이용해야 하는데, 아쉽게도 이는 현재 유료상태이다.
-    하지만 걱정하지 말자.'''
+* 위치를 찾기위해서는 google map을 이용해야 하는데, 아쉽게도 이는 현재 유료상태이다.
+  하지만 걱정하지 말자. 개발자들을 위해 구글 측에서 무료로 일정 기간 동안 사용이 가능하도록 제공한다.
+  이후에 더 사용을 원할 경우에만 비용을 추가하면 된다.
+  
+* 구글 지도를 이용하기 위한 방법.
+  1. dialogflow console -> settings -> google cloud의 project ID 클릭 -> google cloud platform의 menu에서 billing을 활성화해준다. 
+  
+  
 
 
