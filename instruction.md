@@ -11,7 +11,7 @@ how to implement
 * 코드 작성
   * 코드는 다음과 같다.
   ```
-    * 'use strict';
+     use strict';
 
       const http = require('http');
       const functions = require('firebase-functions');
@@ -37,7 +37,7 @@ how to implement
           res.json({ 'fulfillmentText': `I don't know the weather but I hope it's good!` });
         });
       });
-
+      
       function callWeatherApi (city, date) {
         return new Promise((resolve, reject) => {
           // weather 에 대한 얻은 값을 토대로 HTTP path를 만들어준다. 
@@ -76,5 +76,25 @@ how to implement
         });
       }
       ```
+      
+* terminal 상에서 npm install -g firebase-tools
+
+* terminal 상에서 firebase login
+
+* terminal 상에서 firebase [project ID] 를 입력
+  * project ID는 dialogflow의 설정에 들어가면 확인 가능하다.
+  * 왜 프로젝트 아이디와 같은 해주는가? firebase를 연결할 때 편리하게 하기 위해서이다. 
+  
+* terminal 상에서 firebase init 그리고 firebase deploy 해준다.
+
+* 해당 작업까지 모두 완료한다면 firebase의 functions 카테고리에 들어가면 url이 생성된다. 
+
+* dialogflow 의 console -> fulfilment -> webhook을 enalbe 해준다.
+
+* 앞서 만들어진 firebase의 url 주소를 복사해서 dialowflow의 url 주소 창에 넣어주고 save 해준다.
+
+''' 위치를 찾기위해서는 google map을 이용해야 하는데, 아쉽게도 이는 현재 유료상태이다.
+    하지만 걱정하지 말자. 
+'''
 
 
