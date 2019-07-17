@@ -6,7 +6,7 @@ how to implement
 
 * index.js 파일 생성. 
 
-* terminal 창에서 필요한 모듈들 모두 설치. 예) npm install express
+* terminal 창에서 필요한 모듈들 모두 설치. 예) npm install init
 
 * 코드 작성
   * 코드는 다음과 같다.
