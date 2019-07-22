@@ -8,6 +8,10 @@ how to implement
 
 * terminal 창에서 필요한 모듈들 모두 설치. 예) npm install init
 
+* 날씨 정보를 가져올 홈페이지  https://developer.worldweatheronline.com/api/ 로 접근하여 key 값을 받아온다
+
+* 생성된 키 값을 index.js 파일의 20 번째 줄, functions에 넣어준다. 
+
 * 코드 작성
   * 코드는 다음과 같다.
   ```
