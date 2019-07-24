@@ -13,13 +13,13 @@ how to implement
      
      예시),
      
-          ~~~
+          
           weather for seoul
           
           weather for New-york
          
           what is the weather for Tokyo
-          ~~~
+          
       
    등등.
 
