@@ -158,10 +158,15 @@ how to implement
       선택은 스페이스바 & enter 키
       ~~~
 
+
+
   10. 다음으로 firebase project 를 저장할 default directory 를 정해주어야 한다.
+  
       ~~~ 
       weather-bot-vbwyps (weather-bot) 으로 정해준다. (마찬가지로 스페이스바 & 엔터)
       ~~~
+
+
 
   11. Cloud functions 에 사용할 언어에 javascript 를 선택한다
 
