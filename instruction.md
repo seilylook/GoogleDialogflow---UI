@@ -79,7 +79,7 @@ how to implement
           });
         });
       }
-      ```
+      
       
 * terminal 상에서 npm install -g firebase-tools
 
