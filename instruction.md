@@ -16,9 +16,13 @@ how to implement
           ~~~
           weather for seoul
           ~~~
+          
+          
           ~~~
           weather for New-york
           ~~~
+          
+          
           ~~~
           what is the weather for Tokyo
           ~~~
