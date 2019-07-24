@@ -128,16 +128,14 @@ how to implement
       
       
   5. terminal 상에서 
-
-      ~~~
-      npm install -g firebase-tools
-      ~~~
+  ~~~
+  npm install -g firebase-tools
+  ~~~    
 
   6. terminal 상에서 
-
-      ~~~
-      firebase login
-      ~~~
+  ~~~
+  firebase login
+  ~~~
 
 
   7. terminal 상에서 firebase [project ID] 를 입력
@@ -146,25 +144,22 @@ how to implement
   
   
   8. terminal 상에서 
-
-      ~~~
-      firebase init
-      ~~~
+  ~~~
+  firebase init
+  ~~~
 
   9. 다음의 선택 사항이 터미널에 출력된다. 
-
-      ~~~
-      세번째 카테고리를 선택하여 firebase function 에 deploy 해준다.
-      선택은 스페이스바 & enter 키
-      ~~~
+  ~~~
+  세번째 카테고리를 선택하여 firebase function 에 deploy 해준다.
+  선택은 스페이스바 & enter 키
+  ~~~
 
 
 
   10. 다음으로 firebase project 를 저장할 default directory 를 정해주어야 한다.
-  
-      ~~~ 
-      weather-bot-vbwyps (weather-bot) 으로 정해준다. (마찬가지로 스페이스바 & 엔터)
-      ~~~
+  ~~~ 
+  weather-bot-vbwyps (weather-bot) 으로 정해준다. (마찬가지로 스페이스바 & 엔터)
+  ~~~
 
 
 
@@ -205,6 +200,10 @@ how to implement
   2. google cloud platform의 menu에서 billing을 활성화해준다. 
   
   <img width="874" alt="스크린샷 2019-07-24 오후 5 07 26" src="https://user-images.githubusercontent.com/48667219/61776263-a2d6da00-ae35-11e9-8724-705ec4517045.png">
+  
+  
+  
+참고: https://miningbusinessdata.com/api-ai-tutorial-getting-started-webhooks-heroku/
   
   
 
