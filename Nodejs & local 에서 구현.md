@@ -48,17 +48,13 @@ How to Implement
  
   가. 먼저 Node js 작업 환경을 설정해준다. 
   
-    ~~~
-    npm init
-    ~~~
     
-    ~~~
+    npm init
+    
     npm install express
-    ~~~
-  
-    ~~~
+    
     npm install --save dialogflow
-    ~~~
+    
     
     
   나. 
