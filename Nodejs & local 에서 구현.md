@@ -44,7 +44,7 @@ How to Implement
       -> 주의할 점: 환경 변수 설정은 현제 terminal 및 shell 세션에만 적용되므로 새로운 섹션을 열었을 경우 변수를 다시 설정해야 한다.
       
       
- 5. 이제 nodejs 를 이용하여 코드 작업을 수행한다
+5. 이제 nodejs 를 이용하여 코드 작업을 수행한다
  
   가. 먼저 Node js 작업 환경을 설정해준다. 
   
@@ -57,9 +57,9 @@ How to Implement
     
     
     
-  나. 
+  나. 해당 코드는 google 에서 제공하는 nodejs 환경에서 google dialogflow API 를 사용할 수 있는 코드이다. 
   
-    ~~~
+    
         async function createEntityType(projectId, displayName, kind) {
         // [START dialogflow_create_entity_type]
         // Imports the Dialogflow library
@@ -892,8 +892,17 @@ How to Implement
 
       if (module === require.main) {
         cli.parse(process.argv.slice(2))};
-    
+        
+        
+        
+  다. 마지막으로 terminal 창에서 명령어를 통해 원하는 작업을 수행할 수 있다. 
+  
     ~~~
+    node index.js -p "프로젝트 이름" create-intent -d "새롭게 만들 intent 이름" -t "새롭게 학습 시킬 문장" -m "새롭게 학습시킬 responde"
+    ~~~
+    
+    
+    
   
   
       
