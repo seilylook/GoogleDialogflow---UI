@@ -897,9 +897,9 @@ How to Implement
         
   다. 마지막으로 terminal 창에서 명령어를 통해 원하는 작업을 수행할 수 있다. 
   
-    ~~~
+    
     node index.js -p "프로젝트 이름" create-intent -d "새롭게 만들 intent 이름" -t "새롭게 학습 시킬 문장" -m "새롭게 학습시킬 responde"
-    ~~~
+    
     
     
     
